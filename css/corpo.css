@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 20px;
+  font-size: 14px;
+  text-align: justify;
+  padding: 50px;
+}
+
+h3 {
+  color: rgba(255, 255, 255, 0.384);
+  padding: 10px;
+}
+.one > .star {
+  display: flex;
+  padding: 13px;
+  gap: 10px;
+}
+
+#add {
+  margin-top: 120px;
+  color: white;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.466);
+  width: 150px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.img {
+  margin-top: 100px;
+  display: flex;
+  width: 350px;
+  height: 350px;
+}
+
+.dois {
+  margin-top: 100px;
+  margin-left: 30px;
+  color: white;
+  font-size: 8px;
+  text-align: justify;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 10px;
+}
+
+.dois > img {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.dois > h2 {
+  margin-bottom: 80px;
+  text-align: left;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
